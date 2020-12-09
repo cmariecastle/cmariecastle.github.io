@@ -142,4 +142,8 @@ plot(
   xlab = "Predicted salary (in millions of USD)",
   ylab = "Acutal Salary (in millions of USD)"
 )
-abline(a = 0, b = 1, col = "gray")
+abline(a = 0, b = 1, col = "gray", lty = 2)
+legend(
+  "bottomright", legend = "actual = predicted", bty = "n",
+  col = "gray", lwd = 1, lty = 2
+)
