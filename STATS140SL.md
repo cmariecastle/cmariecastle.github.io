@@ -48,5 +48,5 @@ Our model assumes that a players' salary contract is determined only by their pe
 
 ## References
 
-1. RealGM 2018-2019 NBA Player Stats https://basketball.realgm.com/nba/stats/2019/Totals/Qualified/points/All/desc/1/Regular_Season
-2. ESPN 2019-2020 NBA Player Salaries http://www.espn.com/nba/salaries/_/year/2020/seasontype/4
+1. RealGM 2018-2019 NBA Player Stats [https://basketball.realgm.com/nba/stats/2019/Totals/Qualified/points/All/desc/1/Regular_Season](https://basketball.realgm.com/nba/stats/2019/Totals/Qualified/points/All/desc/1/Regular_Season)
+2. ESPN 2019-2020 NBA Player Salaries [http://www.espn.com/nba/salaries/_/year/2020/seasontype/4](http://www.espn.com/nba/salaries/_/year/2020/seasontype/4)
