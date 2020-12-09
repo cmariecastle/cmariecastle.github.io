@@ -4,6 +4,10 @@
 
 ### Christine Marie Castle, Alan Ha, Hortencia Mendoza, Julian van Riet, Chenzhijian Yan, Caleb Yuan
 
+## Poster
+
+[View our poster here](/STATS140SL_images/STATS140SL_final_project.pdf)
+
 ## Introduction
 
 The National Basketball Association (NBA) is a professional basketball league in the United States and Canada. However, is it really possible to predict NBA players’ salaries based on their performances?
