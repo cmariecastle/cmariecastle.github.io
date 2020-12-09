@@ -1,0 +1,29 @@
+---
+title: "Graphics"
+output: html_document
+---
+
+```{r}
+salary_data <- read.csv("2019_2020_Salary.csv")
+```
+
+
+```{r SalaryBudgetbyTeam}
+library(dplyr)
+
+salary_data %>% select(salary, Team) %>% group_by(Team) 
+ggplot(salary_data, aes(x = factor(Team), y = salary, fill = factor(Team))) + geom_boxplot() + xlab("Team") + 
+  ylab("Player Salaries") + labs(title = "Player Salaries by Team") +
+  theme(axis.text.x = element_text(angle = 90)) + 
+  scale_y_continuous(labels = scales::dollar_format()) + 
+  scale_fill_discrete(name = "Teams")
+```
+
+```{r}
+salary_data <- salary_data %>% select(salary, Team) %>% group_by(Team) %>% summarise_all(sum)
+ggplot(salary_data, aes(x = factor(Team), y = salary, fill = factor(Team))) + geom_bar(stat = "identity") + 
+  xlab("Team") + ylab("Salaries") + labs(title = "Total Team Salaries") +
+  theme(axis.text.x = element_text(angle = 90)) + 
+  scale_y_continuous(labels = scales::dollar_format()) + 
+  scale_fill_discrete(name = "Teams")
+```
