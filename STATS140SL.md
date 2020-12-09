@@ -10,7 +10,7 @@ The National Basketball Association (NBA) is a professional basketball league in
 
 After each season, NBA team rosters undergo many changes due to free agency and trade deals. Distinguished players often have a higher value and achieve this status through their in-game performances.
 
-In order to gain more insight on the relationship between NBA players’ performances and their salaries and investigate how a player’s performance one year affects their salary in the next year, we have chosen each NBA player's stats associated with their performances in the 2018-2019 season from RealGM and each NBA player’s salary in the 2019-2020 season from ESPN.
+In order to gain more insight on the relationship between NBA players’ performances and their salaries and investigate how a player’s performance one year affects their salary in the next year, we have chosen each NBA player's stats associated with their performances in the 2018-2019 season from [RealGM](https://basketball.realgm.com/nba/stats/2019/Totals/Qualified/points/All/desc/1/Regular_Season) and each NBA player’s salary in the 2019-2020 season from [ESPN](http://www.espn.com/nba/salaries/_/year/2020/seasontype/4).
 
 In this study, we analyze the data of NBA players’ performances to predict their salaries in the next year. By building a statistical model, we explore the insights of how large an impact each element of NBA players’ performances has on their next year salaries. Furthermore, with the data of each NBA player’s salary from ESPN, we are able to examine how closely NBA players’ performances are related to their salaries.
 
@@ -43,3 +43,8 @@ Although we obtained a decent R-squared, limitations in our model include missin
 Our model assumes that a players' salary contract is determined only by their performance in their previous season. However, this is not always the case as they could be two years into their contract and their salary was determined by their performance years ago.
 
 ![2019-2020 Season Total Team Salaries](/total_team_salaries.png)
+
+## References
+
+1. RealGM 2018-2019 NBA Player Stats https://basketball.realgm.com/nba/stats/2019/Totals/Qualified/points/All/desc/1/Regular_Season
+2. ESPN 2019-2020 NBA Player Salaries http://www.espn.com/nba/salaries/_/year/2020/seasontype/4
