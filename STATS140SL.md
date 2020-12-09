@@ -24,9 +24,11 @@ Our null hypothesis is that we will not be able to predict NBA players' salaries
 
 ## Methods
 
-We removed linear combinations and correlated variables from our data set to reduce multicollinearity. Then we performed best subset selection with Mallows' Cp and Bayesian Information Criterion to find the most significant features. We randomly selected 70\% of the players to train a multiple linear regression model on the training set using 10 predictors:
+We removed linear combinations and correlated variables from our data set to reduce multicollinearity. Then we performed best subset selection with Mallows' Cp and Bayesian Information Criterion (BIC) to find the most significant features. We randomly selected 70\% of the players to train a multiple linear regression model using 10 predictors:
 
     Salary ~ Team + Position + GP + FGA + 3PM + FTM + TOV + DRB + AST + BLK
+
+[Legend](https://basketball.realgm.com/info/glossary)
 
 We found that games played, free throws made, and assists were the most significant predictors.
 
