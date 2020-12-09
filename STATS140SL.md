@@ -44,7 +44,9 @@ We found that games played, free throws made, and assists were the most signific
 
 Our model achieved an R-squared of 67.29\% and an adjusted R-squared of 59.96\%. Using our model, we made predictions on the remaining 30\% of athletes. The result was an RMSE of \$7.7 million.
 
-![Actual versus Predicted Salaries](/STATS140SL_images/actual_vs_predicted.png)
+![Actual versus Predicted Salaries (bar)](/STATS140SL_images/abs_simple_actual_pred.png)
+
+![Actual versus Predicted Salaries (scatter)](/STATS140SL_images/actual_vs_predicted.png)
 
 ## Limitations and Next Steps
 
