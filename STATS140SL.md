@@ -14,6 +14,10 @@ In order to gain more insight on the relationship between NBA players’ perform
 
 In this study, we analyze the data of NBA players’ performances to predict their salaries in the next year. By building a statistical model, we explore the insights of how large an impact each element of NBA players’ performances has on their next year salaries. Furthermore, with the data of each NBA player’s salary from ESPN, we are able to examine how closely NBA players’ performances are related to their salaries.
 
+![2019-2020 Season Player Salaries by Team](/salaries_by_team.png)
+
+![2019-2020 Season Player Salaries by Position](/salary_by_position.png)
+
 ## Hypothesis
 
 Our null hypothesis is that we will not be able to predict NBA players' salaries based on the stats of their previous seasons, since there are many underlying factors involved besides performance.
@@ -35,3 +39,5 @@ Our model achieved an R-squared of 67.29\% and an adjusted R-squared of 59.96\%.
 Although we obtained a decent R-squared, limitations in our model include missing some players' salary data as well as not taking into consideration the variation in each teams' budget. Some teams may have more budget to work with and can therefore pay their players' more, meanwhile other teams can not.
 
 Our model assumes that a players' salary contract is determined only by their performance in their previous season. However, this is not always the case as they could be two years into their contract and their salary was determined by their performance years ago.
+
+![2019-2020 Season Total Team Salaries](/total_team_salaries.png)
