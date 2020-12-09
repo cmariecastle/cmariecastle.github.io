@@ -34,9 +34,13 @@ We removed linear combinations and correlated variables from our data set to red
 
 We found that games played, free throws made, and assists were the most significant predictors.
 
+![Diagnostic plots of the model](/STATS140SL_images/diagnostic_plots.png)
+
 ## Results and Conclusions
 
 Our model achieved an R-squared of 67.29\% and an adjusted R-squared of 59.96\%. Using our model, we made predictions on the remaining 30\% of athletes. The result was an RMSE of \$7.7 million.
+
+![Actual versus Predicted Salaries](/STATS140SL_images/actual_vs_predicted.png)
 
 ## Limitations and Next Steps
 
